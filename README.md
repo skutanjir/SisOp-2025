@@ -1,4 +1,4 @@
-# Jawaban dan Penugasab Konversi Sistem Bilangan
+# Jawaban dan Penugasan Konversi Sistem Bilangan
 
 **Nama Kelas : [Nama Kelas Anda]**  
 **NRP         : [NRP Anda]**
