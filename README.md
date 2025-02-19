@@ -1,4 +1,4 @@
-content = """# Jawaban dan Pembahasan Konversi Sistem Bilangan
+# Jawaban dan Pembahasan Konversi Sistem Bilangan
 
 **Nama Kelas : [Nama Kelas Anda]**  
 **NRP         : [NRP Anda]**
