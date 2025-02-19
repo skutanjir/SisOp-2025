@@ -1,7 +1,8 @@
 # Jawaban dan Penugasan Konversi Sistem Bilangan
 
-**Nama Kelas : [Nama Kelas Anda]**  
-**NRP         : [NRP Anda]**
+**Nama Kelas : Sulistyo fajar pratama**<br>
+**KELAS         : D3 IT B**<br>
+**NRP         : 3124500037**
 
 ---
 
@@ -11,7 +12,7 @@
 **Jawaban:**  
 Bilangan biner adalah bilangan yang berbasis **2**.
 
-**Cara/Mekanisme:**  
+**Cara:**  
 Bilangan biner hanya menggunakan dua simbol, yaitu 0 dan 1. Karena hanya ada dua digit, sistem ini disebut *berbasis 2*.  
 **Contoh:**  
 `1010₂ = 1 × 2³ + 0 × 2² + 1 × 2¹ + 0 × 2⁰ = 8 + 0 + 2 + 0 = 10₁₀`
@@ -20,7 +21,7 @@ Bilangan biner hanya menggunakan dua simbol, yaitu 0 dan 1. Karena hanya ada dua
 **Jawaban:**  
 Bilangan heksadesimal adalah bilangan yang berbasis **16**.
 
-**Cara/Mekanisme:**  
+**Cara:**  
 Bilangan heksadesimal menggunakan 16 simbol, yaitu 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, dan A, B, C, D, E, F (di mana A = 10, B = 11, …, F = 15). Karena ada 16 simbol, sistem ini disebut *berbasis 16*.  
 **Contoh:**  
 `1A₁₆ = 1 × 16¹ + 10 × 16⁰ = 16 + 10 = 26₁₀`
@@ -43,7 +44,9 @@ Bilangan heksadesimal menggunakan 16 simbol, yaitu 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 10. 2 ÷ 2 = 1, sisa **0**  
 11. 1 ÷ 2 = 0, sisa **1**
 
-**Cara Membaca:**  
+**Cara
+
+:**  
 Ambil sisa dari langkah terakhir hingga langkah pertama.
 
 **Hasil:**  
