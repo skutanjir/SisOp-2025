@@ -552,10 +552,4 @@ Secara standar, H = **48₁₆** (gunakan **57₁₆** jika sesuai petunjuk soal
 - (spasi): `0100000₂`  
 - X: `1011000₂`  
 
-**Penjelasan:**  
-Tombol-tombol dengan kode biner tersebut menghasilkan tampilan **"PRINT X"** pada monitor.
 
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(content)
