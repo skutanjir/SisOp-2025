@@ -1,4 +1,6 @@
-
+Nama Kelas : Sulistyo fajar pratama
+KELAS : D3 IT B
+NRP : 3124500037
 ---
 
 ## 1.1  
