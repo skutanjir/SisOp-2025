@@ -44,7 +44,3 @@
 
 12. **Tampilan Login:**  
     Antarmuka login (GUI atau CLI) muncul dan sistem siap digunakan oleh pengguna.
-
----
-
-Dokumentasi ini memberikan gambaran lengkap mengenai bagaimana komputer melakukan booting, mulai dari penerimaan daya hingga siap digunakan oleh pengguna. Jika ada perubahan atau penyesuaian pada proses booting, silakan update dokumentasi ini.
