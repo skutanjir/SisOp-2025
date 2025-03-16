@@ -1,46 +1,55 @@
-**Nama:** Sulistyo Fajar Pratama  
-**NRP:** 3124500037  
-**Kelas:** D3 IT B
+# Flowchart Booting Sistem
 
-# Proses Booting: Dari Hidup Power hingga Sistem Berhasil Berjalan
+Dokumentasi ini menjelaskan proses booting sistem yang divisualisasikan melalui flowchart beserta penjelasan masing-masing langkah.
 
-![Flowchart Booting](image.png)
+## Informasi Proyek
 
-## Langkah-langkah
+- **Nama:** Sulistyo Fajar Pratama
+- **NRP:** 3124500037
+- **Kelas:** D3-TI-3C
 
-1. **Hidup Power:**  
-   Tombol power ditekan sehingga komputer menerima suplai listrik.
+## Diagram Flowchart
 
-2. **Pemeriksaan Daya:**  
-   - *Laptop:* Embedded Controller memeriksa apakah baterai cukup atau charger terpasang.  
-   - *PC:* Power supply mulai mendistribusikan listrik ke semua komponen.
+Berikut adalah diagram flowchart yang menggambarkan proses booting sistem:
 
-3. **Inisialisasi CPU:**  
-   CPU mulai bekerja dan mencari firmware (BIOS/UEFI) yang tersimpan di ROM.
+![Flowchart Booting Sistem](gambar.png)
 
-4. **Aktivasi BIOS/UEFI:**  
-   BIOS/UEFI dijalankan untuk menyiapkan sistem dasar.
+> **Catatan:**  
+> Gambar flowchart di atas dapat diimpor ke [diagrams.net](https://app.diagrams.net/) untuk diedit lebih lanjut. Anda juga dapat menggunakan file `flowchart.drawio` (atau file diagram asli) yang disertakan dalam proyek ini untuk melakukan modifikasi.
 
-5. **POST (Power-On Self Test):**  
-   Sistem melakukan pengecekan awal (RAM, CPU, GPU, dsb.) untuk memastikan semua perangkat keras berfungsi.
+## Penjelasan Langkah-Langkah
 
-6. **Mencari Boot Device:**  
-   BIOS/UEFI memeriksa perangkat penyimpanan (HDD/SSD, USB) untuk menemukan media bootable.
+1. **Hidup Power**  
+   Proses booting dimulai dengan mengaktifkan power pada sistem. Ini merupakan langkah awal agar komputer mendapatkan pasokan daya.
 
-7. **Menjalankan Bootloader:**  
-   Jika perangkat bootable ditemukan, bootloader (misalnya GRUB atau Windows Boot Manager) dijalankan.
+2. **Kirim Sinyal ke Power Supply & Embedded Controller**  
+   Setelah mendapatkan daya, sistem mengirimkan sinyal ke power supply dan embedded controller untuk memastikan semua komponen utama menerima daya yang diperlukan.
 
-8. **Memuat Kernel:**  
-   Bootloader memuat kernel sistem operasi ke dalam memori (RAM).
+3. **Eksekusi BIOS/UEFI dari ROM/NOR Flash**  
+   CPU mulai mengeksekusi BIOS/UEFI yang tersimpan di ROM atau NOR flash memory. BIOS/UEFI melakukan Power-On Self Test (POST) untuk memeriksa kondisi perangkat keras dan memastikan semuanya berfungsi dengan baik.
 
-9. **Inisialisasi Kernel:**  
-   Kernel mengatur driver perangkat, manajemen memori, dan sistem berkas.
+4. **Cek Bootloader (Apakah Bootloader Ada?)**  
+   BIOS/UEFI mencari bootloader, yang merupakan program penting untuk:
+   - **Memuat kernel** sistem operasi ke dalam memori.
+   - **Menginisialisasi modul-modul penting** seperti device drivers dan libraries.  
+   **Keputusan:**  
+   - **YA:** Proses berlanjut ke tahap boot kernel.  
+   - **TIDAK:** Sistem gagal melanjutkan booting karena tidak dapat memuat kernel.
 
-10. **Proses Init:**  
-    Kernel menjalankan proses init (seperti systemd) yang akan mengatur layanan sistem.
+5. **Boot Kernel**  
+   Jika bootloader ditemukan, sistem akan mengalokasikan RAM untuk kernel dan memuat kernel beserta modul-modul yang diperlukan, sehingga sistem operasi dapat berjalan.
 
-11. **Menjalankan Layanan Startup:**  
-    Layanan penting (networking, logging, display manager, dsb.) aktif untuk menyiapkan lingkungan kerja.
+6. **Cek Hardware Lengkap (Apakah hardware lengkap?)**  
+   Setelah kernel dimuat, sistem memeriksa kelengkapan perangkat keras:
+   - **YA:** Proses booting berlanjut.
+   - **TIDAK:** Booting gagal karena perangkat keras yang diperlukan tidak tersedia atau bermasalah.
 
-12. **Tampilan Login:**  
-    Antarmuka login (GUI atau CLI) muncul dan sistem siap digunakan oleh pengguna.
+7. **Jalankan Startup Script**  
+   Sistem menjalankan startup script (misalnya melalui file init seperti systemd atau wininit.exe, atau file .target) untuk menginisialisasi layanan-layanan dan aplikasi penting agar sistem siap digunakan.
+
+8. **Tampilan Login & Sistem Berhasil Jalan**  
+   Setelah seluruh proses inisialisasi selesai, sistem menampilkan tampilan login, menandakan bahwa booting telah berhasil dan sistem siap untuk menerima interaksi pengguna.
+
+---
+
+Dokumentasi ini diharapkan dapat membantu Anda memahami alur booting sistem yang divisualisasikan melalui flowchart. Jika ada pertanyaan atau perlu modifikasi lebih lanjut, jangan ragu untuk menghubungi.
