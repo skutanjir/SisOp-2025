@@ -14,9 +14,6 @@ Berikut adalah diagram flowchart yang menggambarkan proses booting sistem:
 
 ![Flowchart Booting Sistem](gambar.png)
 
-> **Catatan:**  
-> Gambar flowchart di atas dapat diimpor ke [diagrams.net](https://app.diagrams.net/) untuk diedit lebih lanjut. Anda juga dapat menggunakan file `flowchart.drawio` (atau file diagram asli) yang disertakan dalam proyek ini untuk melakukan modifikasi.
-
 ## Penjelasan Langkah-Langkah
 
 1. **Hidup Power**  
@@ -51,5 +48,3 @@ Berikut adalah diagram flowchart yang menggambarkan proses booting sistem:
    Setelah seluruh proses inisialisasi selesai, sistem menampilkan tampilan login, menandakan bahwa booting telah berhasil dan sistem siap untuk menerima interaksi pengguna.
 
 ---
-
-Dokumentasi ini diharapkan dapat membantu Anda memahami alur booting sistem yang divisualisasikan melalui flowchart. Jika ada pertanyaan atau perlu modifikasi lebih lanjut, jangan ragu untuk menghubungi.
