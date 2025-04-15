@@ -117,9 +117,7 @@ print("Semua gambar telah diproses.")
 
 Hukum Amdahl memberikan perkiraan berapa banyak peningkatan kecepatan (speedup) yang bisa dicapai ketika sebagian program dapat diparalelkan. Rumusnya adalah:
 
-\[
-S(n) = \frac{1}{(1-p) + \frac{p}{n}}
-\]
+![Pararelkan](pararelkan.png)
 
 di mana:
 - \( p \) adalah bagian program yang bisa diparalelkan (di sini 0.6 atau 60%),  
@@ -128,15 +126,11 @@ di mana:
 
 ### Untuk Dua Core Pemroses
 
-\[
-S(2) = \frac{1}{(1-0.6) + \frac{0.6}{2}} = \frac{1}{0.4 + 0.3} = \frac{1}{0.7} \approx 1.43
-\]
+![Dua Core](Dua_Core_Pemroses.png)
 
 ### Untuk Empat Core Pemroses
 
-\[
-S(4) = \frac{1}{(1-0.6) + \frac{0.6}{4}} = \frac{1}{0.4 + 0.15} = \frac{1}{0.55} \approx 1.82
-\]
+![Empat Core](Empat_Core.png)
 
 *Penjelasan:* Peningkatan performa tidak akan linier karena ada bagian dari program yang tetap harus dijalankan secara berurutan (bagian serial). Jadi, meskipun jumlah core bertambah, peningkatan speedup terbatas oleh bagian tersebut.
 
