@@ -94,15 +94,16 @@ int main() {
     pid_t pid = fork();
 
     if (pid < 0) {
-        perror("Fork gagal");
+        perror("Fork failed");
         return 1;
     } else if (pid == 0) {
-        printf("Proses anak (PID: %d)\n", getpid());
+        printf("Child process (PID: %d)\n", getpid());
     } else {
-        printf("Proses induk (PID: %d) dengan anak PID: %d\n", getpid(), pid);
+        printf("Parent process (PID: %d) with child PID: %d\n", getpid(), pid);
     }
     return 0;
 }
+
 ```
 
 #### **Cara Menjalankan**
