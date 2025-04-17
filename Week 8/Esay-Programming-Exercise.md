@@ -151,9 +151,10 @@ int main(int argc, char *argv[]) {
 **Jalankan:**  
 ```bash
 gcc thrd-posix.c -lpthread -o posix_sum
+./posix_sum 100
 ./posix_sum 10
 ```  
-> Pastikan muncul `sum = 55`; screenshot di terminal-mu.
+![linux](linux.png)
 
 ---
 
@@ -226,7 +227,7 @@ int main(int argc, char *argv[]) {
 **Jalankan (VS Dev Prompt):**  
 ```bat
 cl thrd-win32.c
-thrd-win32.exe 10
+thrd-win32.exe 100
 ```  
 ![thrd-win32.c](thrd-win32.png)
 
