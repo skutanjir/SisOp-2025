@@ -86,7 +86,7 @@ public class SumTask extends RecursiveTask<Integer> {
 javac SumTask.java
 java SumTask
 ```  
-> Hasilnya akan menampilkan `The sum is <angka>`; ambil screenshot dari konsol.
+![Java](java.png)
 
 ---
 
@@ -228,5 +228,5 @@ int main(int argc, char *argv[]) {
 cl thrd-win32.c
 thrd-win32.exe 10
 ```  
-> Setelah `sum = 55` muncul, langsung screenshot output-nya.
+![thrd-win32.c](thrd-win32.png)
 
