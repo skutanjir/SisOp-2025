@@ -66,7 +66,7 @@ Pada bagian input, kami memasukkan 4 proses dengan Arrival Time (AT) dan Burst T
 
 **Output**
 
-![Tampilan Program](foto1.png)
+![Tampilan Program](foto1.jpeg)
 
 **Analisa**
 
@@ -235,7 +235,7 @@ int main() {
 
 **Output**
 
-![Tampilan Program](foto2.png)
+![Tampilan Program](foto2.jpeg)
 
 **Analisa**
 
