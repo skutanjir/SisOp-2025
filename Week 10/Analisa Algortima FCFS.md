@@ -1,3 +1,8 @@
+**1. Sulistyo Fajar Pratama 3124500037**        
+**2. Ibnu Habib Ridwansyah 3124500041**        
+**3. Hapizh Hammas Muntazar 3124500060**        
+
+
 **FCFS Scheduling Algorithm**
 
 ```c
