@@ -103,6 +103,7 @@ int main() {
 ## 2. Contoh Output Program
 
 ![image](Output-Non-Preemptive-SJF.png)
+![image](hasil1.png)
 
 ## 3. Analisis Hasil
 
