@@ -4,7 +4,7 @@
 
 <code>Hafizh Hammas Muntazar 3124500060</code></br>
 
-# Analisis dan Pembahasan Algoritma SJF Non-Preemptive Dengan Arrival Time
+# SJF Scheduling Algorithm
 
 
 Pada varian **SJF Non-Preemptive dengan Arrival Time**, setiap proses memiliki waktu kedatangan (*arrival time*). Scheduler selalu memilih proses terpendek yang telah tiba (arrival ≤ current time) dan belum dieksekusi. Jika tidak ada proses yang siap, CPU menganggur hingga proses berikutnya tiba.
