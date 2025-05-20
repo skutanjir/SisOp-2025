@@ -148,7 +148,7 @@ int main() {
 
 #### **Rata-rata TAT dan WT**
 
-![Average](Averge.png)
+![Average](Average.png)
 
 ### **5. Kelebihan dan Kekurangan Algoritma SRTF**
 
