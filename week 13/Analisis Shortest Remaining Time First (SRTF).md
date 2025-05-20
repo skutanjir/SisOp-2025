@@ -105,7 +105,7 @@ int main() {
 
 ### **4. Output**
 
-![Output Program](https://github.com/ibnuhabibr/SisOp-2025/blob/main/img/Output.png)
+![Output Program](hasil3.png)
 
 #### **Penjelasan Tabel Output:**
 
@@ -148,7 +148,7 @@ int main() {
 
 #### **Rata-rata TAT dan WT**
 
-![Average](hasil3.png)
+![Average](Averge.png)
 
 ### **5. Kelebihan dan Kekurangan Algoritma SRTF**
 
