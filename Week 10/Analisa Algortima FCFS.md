@@ -1,7 +1,7 @@
 **1. Sulistyo Fajar Pratama 3124500037**        
 **2. Ibnu Habib Ridwansyah 3124500041**        
-**3. Hapizh Hammas Muntazar 3124500060**        
-
+**3. Hapizh Hammas Muntazar 3124500060**                
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc  
 
 **FCFS Scheduling Algorithm**
 
