@@ -2,7 +2,8 @@
 
 <code>Ibnu Habib Ridwansyah 3124500041</code></br>
 
-<code>Hafizh Hammas Muntazar 3124500060</code></br>
+<code>Hafizh Hammas Muntazar 3124500060</code></br>        
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc  
 
 # **Penjelasan dan Pembahasan Output Algoritma Shortest Remaining Time First (SRTF)**
 
