@@ -1,3 +1,8 @@
+**Nama:** Sulistyo Fajar Pratama  
+**NRP:** 3124500037  
+**Kelas:** D3 IT B    
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
+
 ## **Programming Exercise: Penerapan Threading di Java, Linux, dan Windows**  
 ### *(Studi Kasus: `SumTask.java`, `thrd-posix.c`, dan `thrd-win32.c`)*
 
