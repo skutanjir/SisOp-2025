@@ -6,7 +6,8 @@ Dokumentasi ini menjelaskan proses booting sistem yang divisualisasikan melalui 
 
 - **Nama:** Sulistyo Fajar Pratama
 - **NRP:** 3124500037
-- **Kelas:** D3-TI-3C
+- **Kelas:** D3-TI-3C      
+- **Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
 
 ## Diagram Flowchart
 
