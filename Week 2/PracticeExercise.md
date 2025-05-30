@@ -1,6 +1,7 @@
 Nama Kelas : Sulistyo fajar pratama
 KELAS : D3 IT B
-NRP : 3124500037
+NRP : 3124500037      
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
 ---
 
 ## 1.1  
