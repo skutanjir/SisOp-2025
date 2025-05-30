@@ -1,3 +1,8 @@
+**Nama:** Sulistyo Fajar Pratama  
+**NRP:** 3124500037  
+**Kelas:** D3 IT B    
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
+
 # Konsep Single Thread dan Multithread
 
 Dokumentasi ini membahas secara mendalam tentang konsep *single thread* dan *multithread* dalam pemrograman. Penjelasan berikut disusun secara independen, dengan tujuan membantu pembaca memahami perbedaan, kelebihan, dan kekurangan masing-masing pendekatan. Materi ini sepenuhnya merupakan hasil analisis sendiri dan tidak diambil dari universitas atau institusi lain.
