@@ -1,3 +1,8 @@
+**Nama:** Sulistyo Fajar Pratama  
+**NRP:** 3124500037  
+**Kelas:** D3 IT B    
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
+
 # Pengujian FLOPS dan IOPS pada VirtualBox
 
 ## Tujuan Pembelajaran
