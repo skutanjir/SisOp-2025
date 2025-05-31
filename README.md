@@ -3,7 +3,8 @@
 ## 📌 Informasi
 - **Nama**: Sulistyo Fajar Pratama  
 - **Kelas**: 1 D3 IT B, Semester 2  
-- **NRP**: 3124500037  
+- **NRP**: 3124500037
+- **Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
 
 ## 📖 Deskripsi
 Repositori ini dibuat sebagai bagian dari studi tentang sistem operasi. Berisi berbagai materi, kode, dan eksperimen yang berkaitan dengan konsep serta implementasi sistem operasi.
